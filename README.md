@@ -366,7 +366,7 @@ Worker checks dashboard
 
 ## 📎 Links
 
-- 🎥 Demo Video: *([youtu.be/o-7-CsCDoUg?si=coL_ZLrDl6LpRI_T](https://youtu.be/o-7-CsCDoUg?si=coL_ZLrDl6LpRI_T))*
+- 🎥 Demo Video: *[youtu.be/o-7-CsCDoUg?si=coL_ZLrDl6LpRI_T](https://youtu.be/o-7-CsCDoUg?si=coL_ZLrDl6LpRI_T)*
 - 🌐 Live Prototype: [house-starck-shield.base44.app](https://house-starck-shield.base44.app/)
 - 📄 Pitch Deck: *(Phase 3)*
 
