@@ -364,17 +364,11 @@ Worker checks dashboard
 
 ---
 
-## 👥 Contributors
+## 📎 Links
 
-| Role | Name | GitHub |
-|------|------|--------|
-| Founder / Product Lead | _Your Name_ | [@placeholder](#) |
-| Backend Developer | _Contributor_ | [@placeholder](#) |
-| ML Engineer | _Contributor_ | [@placeholder](#) |
-| Frontend Developer | _Contributor_ | [@placeholder](#) |
-| UI/UX Designer | _Contributor_ | [@placeholder](#) |
-
-> 🤝 Want to contribute? Read [CONTRIBUTING.md](CONTRIBUTING.md) to get started.
+- 🎥 Demo Video: *([add YouTube link](https://youtu.be/o-7-CsCDoUg?si=coL_ZLrDl6LpRI_T))*
+- 🌐 Live Prototype: [house-starck-shield.base44.app](https://house-starck-shield.base44.app/)
+- 📄 Pitch Deck: *(Phase 3)*
 
 ---
 
