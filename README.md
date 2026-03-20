@@ -1,13 +1,14 @@
 # 🏠 HouseStark
+
 ### *"Protecting the People Who Keep Your City Moving."*
 
-> **An AI-enabled parametric income protection platform for gig economy delivery workers — built for the disruptions no one plans for.**
+> An AI-enabled parametric income protection platform for gig economy delivery workers — built for disruptions no one plans for.
 
 <br>
 
 ![Status](https://img.shields.io/badge/Status-In%20Development-orange?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)
-![Stack](https://img.shields.io/badge/Stack-React%20%7C%20Node.js%20%7C%20Python%20ML-green?style=flat-square)
+![Stack](https://img.shields.io/badge/Stack-React%20%7C%20Node.js%20%7C%20MongoDB%20%7C%20Python-green?style=flat-square)
 ![Domain](https://img.shields.io/badge/Domain-InsurTech%20%7C%20GigEconomy-purple?style=flat-square)
 ![Coverage](https://img.shields.io/badge/Coverage-Income%20Protection%20Only-red?style=flat-square)
 
@@ -22,7 +23,7 @@
 - [Key Features](#-key-features)
 - [Additional Innovative Features](#-additional-innovative-features)
 - [How It Works](#-how-it-works)
-- [AI/ML Integration](#-aiml-integration)
+- [AI/ML Usage](#-aiml-usage)
 - [Parametric Triggers](#-parametric-triggers)
 - [Tech Stack](#-tech-stack)
 - [System Architecture](#-system-architecture)
@@ -36,354 +37,288 @@
 
 ## 🔴 Problem Statement
 
-India has over **12 million gig delivery workers** operating on platforms like Zomato, Swiggy, Amazon, Zepto, and Dunzo. These workers are the backbone of urban commerce — yet they remain among the most financially exposed individuals in the economy.
+India has over **12 million gig delivery workers** on platforms like Zomato, Swiggy, Amazon, Zepto, and Dunzo. They work long hours, depend entirely on daily deliveries — and have no safety net.
 
-**The hard reality:**
+**The reality they face every day:**
 
-- 🌧️ A heavy rain day means zero deliveries — and zero income
-- 🌫️ High-pollution days reduce order volumes by up to **40%** in affected zones
-- 🚫 A local curfew or bandh can erase an entire week's earnings overnight
-- 📉 Workers lose **20–30% of monthly income** due to disruptions entirely outside their control
-- 🚫 There is currently **no formal income protection system** built for them
+- 🌧️ A rainy day = no deliveries = no income
+- 🌫️ High pollution days cause order drops of up to **40%** in affected areas
+- 🚫 A local curfew or strike can wipe out an **entire week's earnings**
+- 📉 Workers lose **20–30% of monthly income** due to events completely outside their control
+- 🚫 No insurance product today protects their **weekly income** from these disruptions
 
-Traditional insurance products do not address income loss from environmental or civic disruptions. Health, vehicle, and life policies exist — but nothing protects a delivery worker's **weekly earnings** when the world around them shuts down. That gap is what HouseStark is built to close.
+Traditional insurance covers health, vehicles, or life — but nothing covers what a delivery worker actually loses: **their ability to earn.**
 
 ---
 
 ## ✅ Solution Overview
 
-HouseStark is an **AI-powered parametric income insurance platform** purpose-built for gig economy delivery workers.
+HouseStark is an **AI-powered parametric income insurance platform** built specifically for gig delivery workers.
 
-**What we do:**
+Here's what it does:
 
-- 🔒 Cover **loss of income only** — not health, vehicle, or accidents
-- 📅 Price risk dynamically through a **weekly premium model** that adapts to forecasted conditions
-- ⚡ **Automatically trigger and process claims** the moment verified real-world events occur
-- 🤖 Use **machine learning** for personalized risk scoring and intelligent fraud detection
-- 📍 Monitor **hyperlocal conditions** — weather, AQI, civic events — in real time
-- 💸 Deliver **instant simulated payouts** directly to the worker's linked wallet
+- 🛡️ Protects **weekly income** — not health, vehicles, or life
+- 📅 Charges a **small weekly premium** based on the worker's risk level
+- ⚡ **Automatically detects disruptions** (rain, pollution, curfews) and triggers a payout — no claim needed
+- 🤖 Uses **AI** to set fair, personalized premiums and catch fraudulent activity
+- 💸 Sends **instant payouts** directly to the worker's wallet (simulated)
 
-No forms. No calls. No waiting. Just protection — when it's needed most.
+Simple. Automatic. Built for real people.
 
 ---
 
 ## 💡 Why This Matters
 
-> *"When a delivery partner can't ride because of a storm, their children go hungry. That's not a risk problem — it's a justice problem."*
-
-**The scale of the gap is staggering:**
+> *"When a delivery partner can't ride because of a storm, their family feels it. That's not just financial risk — it's a daily injustice."*
 
 - 🇮🇳 India's gig workforce is projected to reach **23.5 million by 2030** (NITI Aayog)
-- 💰 A single disrupted week can cost a worker ₹2,000–₹5,000 — nearly **15–25% of monthly income**
-- 🏦 Less than **3% of gig workers** have any form of income-linked financial protection
-- 📊 Platform algorithms offer no compensation for weather-related or civic downtime
+- 💰 One bad week can cost a delivery worker ₹2,000–₹5,000 — up to **20% of monthly income**
+- 🏦 Fewer than **3% of gig workers** have any income-linked financial protection today
+- 📲 Platforms offer no compensation when weather or civic events kill order volumes
 
-HouseStark doesn't just reduce financial risk. It gives workers the **stability to plan, save, and thrive** — rather than simply survive. It represents a new category of insurance: **parametric, gig-native, and built around income — not assets.**
+HouseStark gives workers the financial stability to **plan ahead, handle emergencies, and stop living week to week.**
 
 ---
 
 ## 👤 Target Users / Persona
 
-### 🛵 Primary Persona: Food Delivery Partner
+### 🛵 Primary Persona — Food Delivery Partner
 
 | Attribute | Detail |
 |-----------|--------|
-| **Representative Name** | Ravi K. |
+| **Name** | Ravi K. |
 | **Platform** | Swiggy / Zomato |
-| **Age Range** | 22–40 |
-| **Location** | Tier 1 & Tier 2 Indian metros |
+| **Age** | 22–40 |
+| **City** | Bengaluru, Mumbai, Hyderabad, Delhi |
 | **Monthly Income** | ₹15,000 – ₹30,000 |
-| **Working Hours** | 8–12 hrs/day, 6–7 days/week |
-| **Primary Risk** | Extreme weather, pollution alerts, curfews, bandhs |
-| **Tech Access** | Android smartphone, UPI-enabled bank account |
-| **Insurance Awareness** | Low — has never purchased formal income protection |
+| **Hours** | 8–12 hrs/day, 6–7 days/week |
+| **Biggest Risk** | Rain, pollution, curfews, bandhs |
+| **Device** | Android phone with UPI |
+| **Insurance Awareness** | Very low — never bought any income protection |
 
-> 📌 **Secondary personas** (planned): E-commerce delivery agents (Amazon, Flipkart, Zepto), grocery delivery partners (Blinkit, BigBasket Now), and hyperlocal courier workers (Dunzo, Porter).
+> 📌 Future personas include e-commerce couriers (Amazon, Zepto), grocery delivery (Blinkit), and ride-hailing drivers.
 
 ---
 
 ## 🌟 Key Features
 
-### 🧠 1. AI-Powered Risk Assessment
-Each worker receives a **personalized weekly risk score** generated by an ML model trained on delivery history, local weather patterns, zone-level disruption records, and seasonal data. Premiums are individual — never generic.
+### 🧠 1. AI-Based Risk Assessment
+The platform uses a machine learning model to calculate each worker's **personal weekly premium**. It looks at delivery zone history, local weather patterns, and seasonal risk — so no two workers get the same quote.
 
-### 📅 2. Weekly Dynamic Premium Model
-HouseStark operates on a **7-day rolling coverage cycle**. Premiums are recalculated every week based on forward-looking risk in the worker's active delivery zone. Low-risk week ahead = lower premium. High disruption forecast = enhanced protection activated automatically.
+### 📅 2. Weekly Premium Model
+Coverage runs in **7-day cycles**. Every week, the premium is recalculated based on the upcoming risk forecast in the worker's zone. Low-risk week = lower cost. Storm ahead = extra protection kicks in.
 
-### ⚡ 3. Parametric Claim Automation
-When a predefined threshold is crossed — e.g., rainfall exceeding 40mm in 3 hours in Zone 7 — the system validates the event across multiple data sources, identifies all enrolled workers in the zone, and fires payouts. Zero manual intervention required.
+### ⚡ 3. Automatic Claim System
+No forms. No calls. When a disruption threshold is crossed — like heavy rainfall or an official curfew — the system automatically validates the event and sends a payout to every eligible worker in the affected zone.
 
-### 🔍 4. Fraud Detection System
-An anomaly detection layer cross-validates claim events against GPS data, weather API readings, platform order volume drops, and behavioral signals. Suspicious patterns are flagged instantly — protecting the integrity of the shared insurance pool.
+### 🔍 4. Fraud Detection
+A smart anomaly detection layer checks whether claimed events actually happened — using weather data, GPS signals, and order volume patterns. Suspicious activity gets flagged automatically before any payout goes out.
 
-### 📡 5. Real-Time Trigger Monitoring
-The platform continuously polls live data feeds — weather APIs, AQI monitors, civic alert systems, and news pipelines — to detect trigger-eligible events as they unfold. Monitoring runs 24/7 across all enrolled delivery zones.
+### 📡 5. Real-Time Monitoring
+The platform watches live weather data, air quality indexes, and civic event feeds around the clock — so it can respond the moment a disruption event occurs in any enrolled delivery zone.
 
-### 💸 6. Instant Payout Simulation
-Upon claim approval, the platform simulates an instant disbursement via UPI / wallet integration. Workers receive an in-app notification and SMS confirmation within minutes of a triggered event — no delays, no disputes.
+### 💸 6. Instant Payout (Simulated)
+Once a claim is approved, the system immediately sends a payout to the worker's linked UPI wallet. Workers receive an SMS and in-app notification — typically within minutes of an event being validated.
 
 ---
 
 ## 🚀 Additional Innovative Features
 
-> The features below represent HouseStark's product vision beyond core insurance — transforming it into a comprehensive income protection ecosystem for gig workers.
+> These features go beyond basic insurance — turning HouseStark into a complete income protection ecosystem.
 
 ---
 
-### 🗺️ 7. Hyperlocal Risk Heatmaps
-An interactive, city-level heatmap visualizes **real-time disruption risk by pin code and delivery zone**, powered by live weather data, AQI feeds, and civic event tracking. Workers and administrators can instantly see which areas are high-risk today — and plan or advise accordingly.
+### 🗺️ Hyperlocal Risk Heatmaps
+An interactive city map shows **which delivery zones are high-risk right now** — based on live weather, AQI, and event data. Workers can check risk before they head out. Admins can monitor zone-level exposure in real time.
 
 ---
 
-### 🔔 8. Smart Alerts & Notifications
-Intelligent push notifications and SMS alerts warn workers **24–48 hours in advance** about approaching disruptions — rainfall forecasts, air quality deterioration, civic event flags, and extreme temperature advisories. Workers receive actionable intelligence, not just reactive payouts.
+### 🔔 Smart Alerts & Notifications
+Push notifications and SMS warn workers **24–48 hours in advance** about upcoming disruptions — rain forecasts, pollution spikes, or local event alerts. Workers get a heads-up, not just a payout after the fact.
 
 ---
 
-### 📊 9. Earnings Protection Tracker
-A personal income dashboard provides workers with a **weekly breakdown** of total earnings, disruption-impacted days, claims triggered, and cumulative income protected by HouseStark. Trend visualizations help workers quantify the real financial value of their coverage over time.
+### 📊 Earnings Protection Tracker
+A personal dashboard shows workers exactly how much income HouseStark has protected each week — broken down by disruption type, payout received, and coverage used. Simple charts make the value of the product visible.
 
 ---
 
-### 🎯 10. Personalized Coverage Plans
-AI-driven recommendations suggest the **optimal weekly coverage tier** for each worker based on their delivery zone risk profile, historical earnings, seasonal disruption patterns, and upcoming weather forecasts. Workers receive clear, data-backed recommendations — no guesswork required.
+### 🎯 Personalized Coverage Plans
+The AI recommends the **best weekly coverage tier** for each worker based on their location, earnings history, and forecasted risk. Workers don't need to figure out what plan to buy — the platform tells them.
 
 ---
 
-### 📱 11. Multi-Platform Support
-HouseStark is designed as a **React PWA (Progressive Web App) and Android-first mobile experience**, ensuring accessibility for workers regardless of device capability. Lightweight architecture guarantees performance on entry-level smartphones with limited data connectivity.
+### 📱 Multi-Platform Support
+HouseStark works on **both web and mobile** — designed as a lightweight PWA that runs smoothly on low-end Android devices with limited internet. No one gets left out because of their phone.
 
 ---
 
-### 🔮 12. Predictive Disruption Forecasting
-Time-series ML models analyze historical disruption records, seasonal weather cycles, and civic event calendars to **forecast high-risk weeks up to 7 days in advance**. The platform proactively updates workers and adjusts coverage recommendations before disruptions materialize.
+### 🔮 Predictive Disruption Forecasting
+ML models analyze historical weather, seasonal patterns, and civic event data to **predict high-risk weeks up to 7 days ahead**. Workers and admins get early warnings — not reactive responses.
 
 ---
 
-### 🔐 13. Secure Identity Verification
-Streamlined onboarding includes **OTP-based mobile verification**, lightweight KYC document upload (Aadhaar / PAN), and delivery platform ID cross-validation. The entire identity verification process is designed to complete in under 3 minutes while maintaining fraud prevention standards.
+### 🔐 Secure Login & Verification
+Workers register using **mobile OTP verification** and complete a lightweight KYC process (Aadhaar / PAN upload + delivery platform ID check). The entire process takes under 3 minutes.
 
 ---
 
-### ⚙️ 14. Zero-Touch Claim System
-From trigger detection to payout disbursement, the entire claims pipeline is **fully automated end-to-end**. No claim forms, no customer service calls, no waiting periods. The system handles event validation, eligibility checks, approval, and payment without any action required from the worker or insurer.
+### ⚙️ Zero-Touch Claims
+The entire claim process — from event detection to payout — is **100% automated**. No forms to fill. No documents to upload. No calls to make. Workers simply receive a notification when money hits their wallet.
 
 ---
 
-### 📈 15. Admin Analytics Dashboard
-A dedicated insurer-side portal gives platform administrators a **real-time view of**: active policies, live claim triggers, fraud flag rates, zone-level risk exposure, payout volumes, premium collection, and ML model performance metrics. Designed for data-driven underwriting and operational oversight.
+### 📈 Admin Dashboard
+A dedicated insurer portal shows **live data on**: active policies, triggered claims, flagged fraud cases, payout volumes, zone-level risk, and premium collection — all in one clean analytics interface.
 
 ---
 
-### 🏅 16. Gamified Reliability Score
-Workers accumulate a **Reliability Score** over time based on consistent premium payments, accurate location reporting, and sustained platform engagement. Higher scores unlock tangible benefits: reduced weekly premiums, payout multipliers, priority claim processing, and access to premium coverage tiers.
+### 🏅 Reliability Score
+Workers build a personal **Reliability Score** over time by paying premiums consistently and staying active. Higher scores unlock rewards: lower premiums, faster claim processing, and access to premium coverage tiers.
 
 ---
 
 ## 🔄 How It Works
 
 ```
-╔══════════════════════════════════════════════════════════════════╗
-║                     HOUSESTARK WORKFLOW                          ║
-╠══════════════════════════════════════════════════════════════════╣
-║                                                                  ║
-║  STEP 1 — ONBOARDING                                             ║
-║  Worker registers → OTP verification → KYC upload               ║
-║  → Delivery platform ID linked                                   ║
-║              ↓                                                   ║
-║  STEP 2 — AI RISK SCORING                                        ║
-║  ML model evaluates: delivery zone + history + weather           ║
-║  outlook + seasonal patterns                                     ║
-║  → Generates personalized weekly premium quote                   ║
-║              ↓                                                   ║
-║  STEP 3 — COVERAGE ENROLLMENT                                    ║
-║  Worker reviews AI-recommended plan → accepts terms              ║
-║  → Weekly premium auto-deducted via UPI                          ║
-║              ↓                                                   ║
-║  STEP 4 — REAL-TIME MONITORING                                   ║
-║  Platform polls: Weather APIs + AQI + Civic Event Feeds          ║
-║  Smart alerts sent 24–48 hrs before risk events                  ║
-║              ↓                                                   ║
-║  STEP 5 — TRIGGER DETECTION                                      ║
-║  Parametric threshold crossed in worker's zone                   ║
-║  → Multi-source validation confirms event                        ║
-║  → Fraud detection layer clears the claim                        ║
-║              ↓                                                   ║
-║  STEP 6 — ZERO-TOUCH PAYOUT                                      ║
-║  Claim auto-approved → Worker notified via SMS + push            ║
-║  → Payout credited to UPI wallet (simulated)                     ║
-║              ↓                                                   ║
-║  STEP 7 — CYCLE RESET                                            ║
-║  Earnings tracker updates → Reliability score adjusts            ║
-║  → New premium calculated for next 7-day cycle                   ║
-║                                                                  ║
-╚══════════════════════════════════════════════════════════════════╝
+ 1. 📱  Worker signs up → OTP verification → quick KYC
+          ↓
+ 2. 🤖  AI scores their risk → generates weekly premium quote
+          ↓
+ 3. ✅  Worker accepts plan → premium deducted via UPI
+          ↓
+ 4. 📡  Platform monitors weather + AQI + civic events 24/7
+          ↓
+ 5. 🔔  Smart alert sent: "Heavy rain expected in your zone tomorrow"
+          ↓
+ 6. ⚡  Disruption threshold crossed → system validates event
+          ↓
+ 7. 🔍  Fraud detection checks the claim automatically
+          ↓
+ 8. 💸  Payout sent to worker's UPI wallet instantly
+          ↓
+ 9. 📊  Dashboard updates: income protected + reliability score goes up
+          ↓
+10. 🔄  New premium calculated → next 7-day cycle begins
 ```
 
 ---
 
-## 🤖 AI/ML Integration
+## 🤖 AI/ML Usage
 
-HouseStark embeds machine intelligence at every critical decision point in the platform:
+HouseStark uses AI at four key points in the platform:
 
-| Module | Purpose | Technique |
-|--------|---------|-----------|
-| **Premium Engine** | Personalized weekly risk scoring | Gradient Boosted Trees (XGBoost) |
-| **Fraud Detection** | Anomaly detection on claim patterns | Isolation Forest / Autoencoder |
-| **Earnings Forecasting** | Predict weekly income disruption impact | LSTM Time-Series Model |
-| **Disruption Forecasting** | 7-day forward risk prediction | Logistic Regression + Weather Fusion |
-| **Coverage Recommender** | AI-personalized plan suggestions | Collaborative Filtering |
-| **Trigger Classifier** | Validate and classify real-world events | Rule Engine + NLP on News Feeds |
-| **Risk Heatmapping** | Zone-level disruption likelihood scoring | Spatial Clustering + AQI Fusion |
+| Where | What It Does | How |
+|-------|-------------|-----|
+| **Premium Calculation** | Sets a fair, personal weekly premium per worker | Gradient Boosted Model (scikit-learn) |
+| **Fraud Detection** | Flags suspicious claim patterns before payout | Anomaly Detection (Isolation Forest) |
+| **Disruption Forecasting** | Predicts high-risk weeks 7 days ahead | Time-Series + Weather Data Fusion |
+| **Plan Recommendation** | Suggests the best coverage tier for each worker | Rule-Based Scoring + ML Classifier |
 
-**Training Data Sources:**
-- Historical weather records (IMD, NASA POWER API)
-- Synthetic anonymized delivery volume datasets
-- AQI and pollution time-series data (CPCB, IQAir)
-- Public civic event and bandh records
-- Seasonal disruption frequency archives
+All models are trained on historical weather data, synthetic delivery volume datasets, AQI records, and civic event archives.
 
 ---
 
 ## ⚡ Parametric Triggers
 
-Claims fire **automatically** when verified thresholds are crossed and confirmed by a minimum of **two independent data sources**:
+A payout fires **automatically** when a real-world event crosses a verified threshold. At least **two data sources** must confirm the event before any claim is processed.
 
-| Trigger | Condition | Payout Level |
-|---------|-----------|-------------|
-| 🌧️ Heavy Rainfall | > 40mm in 3 hrs in delivery zone | 60% of weekly coverage |
-| 🌊 Urban Flooding | Municipal flood alert issued for zone | 80% of weekly coverage |
-| 🌫️ Severe Pollution | AQI > 300 sustained for 4+ hours | 40% of weekly coverage |
-| 🌡️ Extreme Heat | Feels-like temp > 47°C for 6+ hours | 50% of weekly coverage |
-| 🚫 Official Curfew | Government curfew verified in zone | 100% of weekly coverage |
-| ✊ Bandh / Strike | Order drop > 70% + civic event verified | 70% of weekly coverage |
-| 🌪️ Cyclone Alert | IMD Red Alert issued in worker's state | 100% of weekly coverage |
-| 🌁 Dense Fog | Visibility < 50m + traffic advisory issued | 35% of weekly coverage |
-
-> 🔒 **Multi-Source Validation Rule:** Every trigger requires confirmation from at least 2 independent data sources before a claim is processed.
+| Event | Trigger Condition | Payout |
+|-------|-------------------|--------|
+| 🌧️ Heavy Rain | > 40mm rainfall in 3 hours | 60% of weekly cover |
+| 🌊 Flooding | Municipal flood alert in delivery zone | 80% of weekly cover |
+| 🌫️ Severe Pollution | AQI > 300 for 4+ hours | 40% of weekly cover |
+| 🌡️ Extreme Heat | Feels-like temp > 47°C for 6 hours | 50% of weekly cover |
+| 🚫 Curfew | Official curfew order verified | 100% of weekly cover |
+| ✊ Bandh / Strike | Order drop > 70% + verified civic event | 70% of weekly cover |
+| 🌪️ Cyclone | IMD Red Alert issued in worker's state | 100% of weekly cover |
 
 ---
 
 ## 🛠️ Tech Stack
 
 ### Frontend
-- **React.js** — Component-driven UI with Progressive Web App (PWA) support
-- **Tailwind CSS** — Utility-first responsive design system
-- **Leaflet.js / Mapbox GL** — Hyperlocal risk heatmaps and zone visualization
-- **Recharts / Chart.js** — Earnings dashboard and analytics graphs
+- **React.js (JSX)** — UI components and app screens
+- **Tailwind CSS** — Clean, responsive styling
 
 ### Backend
-- **Node.js + Express** — RESTful API layer and business logic
-- **Python + FastAPI** — ML model serving and inference API endpoints
-- **PostgreSQL** — Relational data store (workers, policies, claims, premiums)
-- **Redis** — Real-time event caching and pub/sub alert broadcasting
+- **Node.js + Express** — API server and business logic
+
+### Database
+- **MongoDB** — Stores worker profiles, policies, claims, and events
 
 ### AI / ML
-- **Python** (scikit-learn, XGBoost, TensorFlow / Keras)
-- **Pandas / NumPy** — Data preprocessing and feature engineering pipelines
-- **Jupyter Notebooks** — Model development, training, and evaluation
+- **Python + scikit-learn** — Risk scoring, fraud detection, and forecasting models
 
-### Integrations & APIs
-- **OpenWeatherMap / IMD API** — Live weather data and 7-day forecasts
-- **IQAir / CPCB API** — Real-time AQI and pollution monitoring
-- **News API / RSS Feeds** — Civic event and disruption detection
-- **Razorpay / UPI Mock API** — Simulated instant payout disbursement
-- **Firebase / Twilio** — Push notifications and SMS alert delivery
-- **DigiLocker / Aadhaar API** — KYC and identity verification
+### APIs
+- **OpenWeather API** — Live weather data and forecasts
+- **Mock APIs** — Simulated traffic, platform order volume, and civic event feeds
 
-### DevOps & Infrastructure
-- **Docker + Docker Compose** — Containerized local and cloud environments
-- **GitHub Actions** — Automated CI/CD pipeline
-- **AWS (EC2, S3, RDS) / Vercel** — Cloud deployment and static hosting
+### Payments
+- **Razorpay (Test Mode) / Mock UPI** — Simulated instant payout disbursement
 
 ---
 
 ## 🏗️ System Architecture
 
-```
-┌──────────────────────────────────────────────────────────────────────┐
-│                         HOUSESTARK PLATFORM                          │
-├───────────────────────────┬──────────────────────────────────────────┤
-│    FRONTEND (React PWA)   │             BACKEND SERVICES             │
-│                           │                                          │
-│  ┌─────────────────────┐  │  ┌──────────────────┐  ┌─────────────┐  │
-│  │  Worker Dashboard   │  │  │  Auth & Profile  │  │  Premium    │  │
-│  │  Heatmap Viewer     │◄─┼─►│  Management API  │  │  Engine(ML) │  │
-│  │  Earnings Tracker   │  │  └──────────────────┘  └─────────────┘  │
-│  │  Alert Center       │  │  ┌──────────────────┐  ┌─────────────┐  │
-│  │  Coverage Plans     │  │  │  Trigger Monitor  │  │  Fraud      │  │
-│  └─────────────────────┘  │  │  (Event Engine)   │  │  Detection  │  │
-│                           │  └──────────────────┘  └─────────────┘  │
-│  ┌─────────────────────┐  │  ┌────────────────────────────────────┐  │
-│  │  Admin Dashboard    │◄─┼─►│      Claims Automation Layer       │  │
-│  │  (Insurer Portal)   │  │  │  Validate → Approve → Disburse    │  │
-│  └─────────────────────┘  │  └────────────────────────────────────┘  │
-│                           │  ┌────────────────────────────────────┐  │
-├───────────────────────────┤  │       Payment Gateway (Mock)        │  │
-│   EXTERNAL DATA FEEDS     │  │     UPI / Wallet Simulation         │  │
-│  • IMD / OpenWeatherMap   │  └────────────────────────────────────┘  │
-│  • IQAir / CPCB (AQI)    │                                          │
-│  • News / Civic APIs      │     ML SERVICES (Python FastAPI)         │
-│  • Platform Order Data    │  ┌────────────────────────────────────┐  │
-└───────────────────────────┘  │ Risk Model | Forecast | Fraud Det. │  │
-                               └────────────────────────────────────┘  │
-```
+HouseStark is built as a clean three-layer system:
+
+**1. Frontend (React + Tailwind)**
+The worker-facing app and the admin dashboard. Workers see their coverage, alerts, earnings tracker, and heatmap. Admins see live analytics, claim data, and fraud flags.
+
+**2. Backend (Node.js + Express + MongoDB)**
+Handles all API requests — worker registration, premium calculations, policy management, claim processing, and payout triggers. Connects to the ML service for risk scores and fraud checks.
+
+**3. ML Service (Python + scikit-learn)**
+A lightweight API that accepts worker and zone data, runs the risk model, returns a premium score, and flags anomalies. Runs independently so it can be updated without touching the main backend.
+
+**External feeds** (OpenWeather, AQI, Mock Civic APIs) are polled continuously by an event monitor. When a parametric threshold is crossed, the monitor calls the backend, which validates the event, runs fraud detection, and triggers the payout flow.
 
 ---
 
 ## 🚀 Installation & Setup
 
-> ⚠️ **Note:** This project is under active development. The following reflects the planned local development environment.
+> ⚠️ This project is under active development. Steps below reflect the planned local setup.
 
 ### Prerequisites
-
 - Node.js v18+
 - Python 3.10+
-- PostgreSQL 14+
-- Docker & Docker Compose (recommended)
+- MongoDB (local or Atlas)
 
-### 1. Clone the Repository
+### 1. Clone the Repo
 ```bash
 git clone https://github.com/your-org/housestark.git
 cd housestark
 ```
 
-### 2. Configure Environment Variables
+### 2. Set Up Environment Variables
 ```bash
 cp .env.example .env
-# Add your credentials to .env:
-# WEATHER_API_KEY, IQAIR_API_KEY, RAZORPAY_KEY
-# DATABASE_URL, REDIS_URL, JWT_SECRET, TWILIO_SID
+# Fill in: OPENWEATHER_API_KEY, RAZORPAY_KEY, MONGO_URI, JWT_SECRET
 ```
 
-### 3. Install & Run Frontend
+### 3. Run the Frontend
 ```bash
 cd client
 npm install
 npm run dev
-# Runs on http://localhost:3000
+# → http://localhost:3000
 ```
 
-### 4. Install & Run Backend
+### 4. Run the Backend
 ```bash
 cd server
 npm install
 npm run start
-# Runs on http://localhost:5000
+# → http://localhost:5000
 ```
 
-### 5. Set Up ML Services
+### 5. Run the ML Service
 ```bash
 cd ml
 pip install -r requirements.txt
-uvicorn app:app --reload --port 8000
-# ML inference API runs on http://localhost:8000
-```
-
-### 6. Run with Docker (Recommended)
-```bash
-docker-compose up --build
-# All services spin up automatically
+python app.py
+# → http://localhost:8000
 ```
 
 ---
@@ -391,45 +326,41 @@ docker-compose up --build
 ## 🧭 Usage Flow
 
 ```
-1. 📱  Worker opens HouseStark app (web or mobile)
-          ↓
-2. 🔐  Registers via mobile OTP → completes lightweight KYC
-          ↓
-3. 🔗  Links delivery platform ID (Zomato / Swiggy)
-          ↓
-4. 🤖  AI generates personalized risk score + weekly premium quote
-          ↓
-5. ✅  Worker reviews AI-recommended plan → accepts weekly coverage
-          ↓
-6. 💳  Premium auto-deducted via UPI
-          ↓
-7. 📡  Platform begins 24/7 real-time zone monitoring
-          ↓
-8. 🔔  Smart alert received: "Heavy rain forecast tomorrow in your zone"
-          ↓
-9. ⚡  Parametric threshold crossed → auto-claim validated instantly
-          ↓
-10. 💸  Payout credited to UPI wallet — no action needed
-          ↓
-11. 📊  Dashboard updates: income protected + reliability score increases
-          ↓
-12. 🔄  Cycle resets → new premium generated for next 7-day window
+Worker opens the app
+    → Registers with phone number + OTP
+    → Uploads basic KYC (Aadhaar / PAN)
+    → Links Swiggy / Zomato delivery ID
+
+AI calculates weekly premium
+    → Worker reviews and accepts plan
+    → ₹25–₹80 deducted via UPI
+
+Platform monitors their zone 24/7
+    → Worker gets smart alert: rain expected tomorrow
+
+Heavy rain crosses threshold
+    → System auto-validates event
+    → Fraud check passes
+    → ₹XXX credited to wallet instantly
+
+Worker checks dashboard
+    → Sees income protected this week
+    → Reliability score increases
+    → New premium generated for next week
 ```
 
 ---
 
 ## 🔮 Future Enhancements
 
-- [ ] 🌐 **Multi-Persona Expansion** — Extend coverage to e-commerce, grocery, and ride-hailing workers
-- [ ] 🔗 **Live Platform Integration** — Direct verified income feeds from Swiggy, Zomato, and Amazon APIs
-- [ ] 🏦 **BNPL Premium Model** — Buy Now Pay Later for premiums via NBFC partnerships
-- [ ] ⛓️ **Blockchain Claim Ledger** — Immutable, auditable payout records via smart contracts
-- [ ] 🌾 **Rural Expansion** — Adapt the parametric model for agricultural and daily-wage income protection
-- [ ] 🤝 **Community Fund Pools** — Peer-to-peer micro-insurance collectives for worker groups
-- [ ] 🗣️ **Vernacular Language Support** — Full experience in Hindi, Tamil, Telugu, Kannada, and Bengali
-- [ ] 🏥 **Optional Health Add-ons** — Discounted health micro-insurance modules for enrolled workers
-- [ ] 📋 **IRDAI Sandbox Readiness** — Regulatory compliance reporting tools for formal licensing
-- [ ] 🌍 **SEA Market Adaptation** — Localize for Indonesia, Philippines, and Vietnam gig worker markets
+- [ ] 🌐 Expand to e-commerce, grocery, and ride-hailing workers
+- [ ] 🔗 Live income data feeds directly from Swiggy / Zomato APIs
+- [ ] ⛓️ Blockchain-based claim records for full transparency
+- [ ] 🌾 Adapt model for agricultural and daily-wage income protection
+- [ ] 🗣️ Vernacular language support — Hindi, Tamil, Telugu, Kannada
+- [ ] 🏥 Optional health micro-insurance add-on for enrolled workers
+- [ ] 📋 IRDAI regulatory sandbox compliance module
+- [ ] 🌍 Localize platform for Southeast Asian gig markets
 
 ---
 
@@ -438,13 +369,12 @@ docker-compose up --build
 | Role | Name | GitHub |
 |------|------|--------|
 | Founder / Product Lead | _Your Name_ | [@placeholder](#) |
-| Backend Engineer | _Contributor_ | [@placeholder](#) |
-| ML / AI Engineer | _Contributor_ | [@placeholder](#) |
-| Frontend Engineer | _Contributor_ | [@placeholder](#) |
-| Design Lead | _Contributor_ | [@placeholder](#) |
-| DevOps Engineer | _Contributor_ | [@placeholder](#) |
+| Backend Developer | _Contributor_ | [@placeholder](#) |
+| ML Engineer | _Contributor_ | [@placeholder](#) |
+| Frontend Developer | _Contributor_ | [@placeholder](#) |
+| UI/UX Designer | _Contributor_ | [@placeholder](#) |
 
-> 🤝 Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting a pull request.
+> 🤝 Want to contribute? Read [CONTRIBUTING.md](CONTRIBUTING.md) to get started.
 
 ---
 
@@ -458,10 +388,10 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 <div align="center">
 
-**Built with ❤️ for the 12 million delivery workers who keep India running.**
+**Built with ❤️ for the millions of delivery workers who keep India running.**
 
 *HouseStark — Because income protection shouldn't be a luxury.*
 
-⭐ If this project resonates with you, consider giving it a star.
+⭐ If this resonates with you, give it a star.
 
 </div>
